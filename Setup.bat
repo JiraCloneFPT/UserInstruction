@@ -16,7 +16,7 @@ set pass=
 
 
 
-
+cd ..
 echo Setting Backend
 echo Update version dotnet in project
 dotnet tool update --global dotnet-ef
