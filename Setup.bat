@@ -28,7 +28,7 @@ if ERRORLEVEL 1 (
 )
 
 echo Excute file database
-cd BE/be
+cd Backend/be
 if "%user%"==" " (
 	sqlcmd -s %name% -i database.sql
 )else (
